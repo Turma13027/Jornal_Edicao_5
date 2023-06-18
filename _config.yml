@@ -1,0 +1,8 @@
+# Configurações do GitHub Pages
+defaults:
+  # Adicione as configurações do cabeçalho HTTP
+  - headers:
+      # Adicione a configuração da Política de Segurança de Conteúdo
+      - for: '/*'
+        headers:
+          Content-Security-Policy: "frame-ancestors *"
